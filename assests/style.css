@@ -94,29 +94,52 @@ header nav ul li a {
  }
 
  .work-grid-container {
-     display: grid;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-content: flex-start;
+     align-items: center;
+     justify-content: center;
+     max-width: 80%;
+     height: 100%;
+     margin: 0 auto;
+     padding: 30px 0 0;
+     list-style: none;
      color: white;
      grid-template-columns: 200px;
      background-color: #5366d0;
  }
 
  #work-grid-RB {
-     width: 200px;
-     height: 50px;
+     width: 750px;
+     height: 200px;
+     background-image: url("../images/runbuddy.jpg");
+     background-size:  100%;
      position: relative;
      border: solid black;
+     color: black;
+     translate: (0,0);
+     text-align: inherit;
+ }
+
+ #work-grid-RB :hover {
+     translate: (0, -20px);
  }
 
  #work-grid-M {
-    width: 200px;
-    height: 50px;
+    width: 20%;
+    height: 25%;
     position: relative;
     border: solid black;
 }
 
+#work-grid-M :hover {
+    
+}
+
 #work-grid-HP {
-    width: 200px;
-    height: 50px;
+    width: 15%;
+    height: 100px;
     position: relative;
     border: solid black;
 }
