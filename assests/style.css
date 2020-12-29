@@ -125,7 +125,14 @@ header nav ul li a {
     width: 100%;
     margin: 0 auto;
     padding: 25px 36px;
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
     background-color: #5366d0;
+ }
+
+ .contact ul li a {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
  }
