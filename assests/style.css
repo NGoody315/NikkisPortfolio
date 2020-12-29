@@ -78,9 +78,38 @@ header nav ul li a {
     color: lightgray;
 }
 
-
 #title-one, #title-two, #title-three {
     display: inline-block;
     text-align: left;
     font-family: cursive;
+    color: lightgray;
 }
+
+.work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+ }
+
+ .work-grid-container {
+     display: grid;
+     color: white;
+ }
+
+ #work-grid-RB {
+     width: 200px;
+     height: 50px;
+     position: relative;
+
+ }
+ 
+ .contact-me {
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 36px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #5366d0;
+ }
