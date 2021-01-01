@@ -67,10 +67,6 @@ header nav ul li a {
     align-items: left;
 }
 
-.about-me img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)
-}
-
 .about-me p {
     text-align: center;
     font-weight: bold;
@@ -121,9 +117,14 @@ header nav ul li a {
      translate: (0,0);
      text-align: inherit;
  }
+ 
+ #work-grid-RB a {
+     text-decoration: none;
+     color: white;
+ }
 
- #work-grid-RB :hover {
-     translate: (0, -20px);
+ #work-grid-RB a:hover {
+     color: red;
  }
 
  #work-grid-M {
@@ -137,8 +138,13 @@ header nav ul li a {
     font-size: 75%;
 }
 
+#work-grid-M a {
+    text-decoration: none;
+    color: blue;
+}
+
 #work-grid-M :hover {
-    color: chartreuse;
+    color:red;
 }
 
 #work-grid-HP {
@@ -148,6 +154,15 @@ header nav ul li a {
     background-size: 150%;
     position: relative;
     border: solid black;
+}
+
+#work-grid-HP a {
+    text-decoration: none;
+    color: white;
+}
+
+#work-grid-HP :hover {
+    color:red;
 }
  
  .contact-me {
@@ -165,3 +180,59 @@ header nav ul li a {
     align-items: center;
     list-style: none;
  }
+
+ @media screen and (max-width: 980px) {
+    header {
+       padding-bottom: 0;
+       justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .about-me, .work, .contact-me {
+        width: 100%;
+    }
+
+    .about-me p {
+        flex-wrap: wrap;
+        padding: 10%;
+    }
+
+    .about-me img {
+        width: 25%;
+        height: 25%;
+    }
+
+    .work-grid-container {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+   }
+
+   @media screen and (max-width: 768px) {
+    .about-me, .work, .contact-me {
+        padding: 30px 15px;
+    }
+
+    .about-me , .work{
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .about-me img {
+        width: 10px;
+        height: 10px;
+    }
