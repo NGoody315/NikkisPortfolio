@@ -38,8 +38,8 @@ header nav {
 }
 
 header nav ul {
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
@@ -70,7 +70,7 @@ header nav ul li a {
 .about-me p {
     text-align: center;
     font-weight: bold;
-    padding: 10px 500px;
+    padding: 10px 20px;
     color: lightgray;
 }
 
@@ -178,7 +178,10 @@ header nav ul li a {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    text-decoration: none;
     list-style: none;
+    margin: 0;
+    padding: 0;
  }
 
  @media screen and (max-width: 980px) {
