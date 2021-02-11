@@ -106,6 +106,7 @@ header nav ul li a {
      background-color: #5366d0;
  }
 
+/*Run Buddy*/
  #work-grid-RB {
      width: 750px;
      height: 200px;
@@ -127,6 +128,7 @@ header nav ul li a {
      color: red;
  }
 
+/*Monkees*/
  #work-grid-M {
     width: 20%;
     height: 25%;
@@ -147,6 +149,7 @@ header nav ul li a {
     color:red;
 }
 
+/*Horiseon*/
 #work-grid-HP {
     width: 15%;
     height: 100px;
@@ -164,24 +167,47 @@ header nav ul li a {
 #work-grid-HP :hover {
     color:red;
 }
+
+/*NOVID*/
+#work-grid-NOVID {
+    width: 750px;
+    height: 200px;
+    background-image: url("../images/Novid.jpg");
+    background-size:  100%;
+    position: relative;
+    border: solid black;
+    color: black;
+    translate: (0,0);
+    text-align: inherit;
+}
+
+#work-grid-NOVID a {
+    text-decoration: none;
+    color: blue;
+}
+
+#work-grid-NOVID a:hover {
+    color: red;
+}
  
- .contact-me {
+ #contact-me {
     width: 100%;
     margin: 0 auto;
-    padding: 25px 36px;
-    display: inline-flex;
+    padding: auto;
+    display: inline;
     background-color: #5366d0;
  }
 
- .contact ul li a {
+ #contact {
+     display: inline-flex;
+ }
+
+ #contact ul li a {
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    text-decoration: none;
     list-style: none;
-    margin: 0;
-    padding: 0;
  }
 
  @media screen and (max-width: 980px) {
