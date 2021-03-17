@@ -1,132 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Nikki's Portfolio</title>
-        <!-- <link rel="stylesheet" href="./assests/style.css"/> -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    </head>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikki's Portfolio | Welcome</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
 
-    <body>
-        <!--Nav Bar-->
-       <nav class="navbar navbar-expand-lg bg-success">
-           <div class="navbar-brand text-black">
-               <a href = '/index.html' class="text-reset h1 text-left" id="nav1">Nikki Goodridge</a>
-               <a href="#about-me" class="text-reset h3 text-right" id="nav2">About Me</a>
-               <a href="#work" class="text-reset h3 text-right" id="nav3">Portfolio</a>
-               <a href="#contact-me" class="text-reset h3 text-right" id="nav4">Contact Me</a>
-           </div>
-       </nav>
-       <!--About Me Section-->
-       <div class="container-AB">
-           <div class="row-AB" id="about-me">
-               <div class="col-4">
-                   <div class="card" style="width: 18rem;">
-                       <img src="./images/blue.jpg" class="card-img-top bg-secondary" alt="Nikki Goodridge">
-                       <div class="card-body bg-secondary text-white">
-                           <h4>About Me</h4>
-                       </div>
-                   </div>
-               </div>
-               <div class="col-6">
-                   <div class="card">
-                       <div class="card-body bg-secondary text-white">
-                         My name is Nikki Goodridge. I'm a 31 year old history teacher that is looking to break into the tech world and help revamp vitural education for students of all ages, especially secondary students! I'm currently enrolled in the Full Stack Coding Bootcamp at UCF and will be finished in June of 2021.
-                        </div>
-                </div>
-                </div>
-           </div>
-       </div>
-       <!--Portfolio-->
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
-       <!--Run Buddy-->
-       <div class="container-P">
-        <div class="row-title h1 text-center bg-dark text-white" id="work">Portfolio</div>
-        <div class="row-RB bg-dark">
-            <div class="card-RB bg-success" style="width: 22rem;">
-                <img src="./images/runbuddy.jpg" class="card-img-top" alt="Run Buddy">
-                <div class="card-body">
-                    <h5 class="card-title bg-success text-white text-center">Run Buddy</h5>
-                    <p class="card-text bg-success text-white text-center">HTML/CSS</p>
-                    <a href="https://ngoody315.github.io/run-buddy/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
-                </div>
-            </div>
+        <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+          <div class="row column">
+            <br>
+            <img class="thumbnail" src="./images/blue.jpg">
+            <h5>Nikki Goodridge</h5>
+            <p>My name is Nikki Goodridge. I'm a 31 year old professional break into the tech world! I'm currently enrolled in the Full Stack Coding Bootcamp at UCF and will be finished in June of 2021.</p>
+          </div>
         </div>
-        <!--Monkees Fan Page-->
-            <div class="row-M bg-dark">
-                <div class="card-M bg-success" style="width: 12rem;">
-                    <img src="./images/monkeesfp.jpg" class="card-img-top" alt="Monkees Fan Page">
-                    <div class="card-body">
-                        <h5 class="card-title bg-success text-white text-center">Monkees Fan Page</h5>
-                        <p class="card-text bg-success text-white text-center">HTML/CSS</p>
-                        <a href="https://ngoody315.github.io/MonkeesFanPage/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
-                    </div>
-                </div>
-            </div>
-        <!--Password Generator-->
-            <div class="row-PG bg-dark">
-                <div class="card-M bg-success" style="width: 12rem;">
-                    <img src="./images/PasswordGenerator.jpg" class="card-img-top" alt="Password Generator">
-                    <div class="card-body">
-                    <h5 class="card-title bg-success text-white text-center">Password Generator</h5>
-                    <p class="card-text bg-success text-white text-center">HTML/CSS/JS</p>
-                    <a href="https://ngoody315.github.io/PasswordGenerator/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
-                </div>
-            </div>
-        <!--Coding Quiz-->
-            <div class="row-CQ bg-dark">
-                <div class="card-CQ bg-success" style="width: 12rem;">
-                    <img src="./images/CodingQuiz.jpg" class="card-img-top" alt="Coding Quiz">
-                    <div class="card-body">
-                    <h5 class="card-title bg-success text-white text-center">Coding Quiz</h5>
-                    <p class="card-text bg-success text-white text-center">HTML/CSS/JS</p>
-                    <a href="https://ngoody315.github.io/CodingQuiz/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
-                </div>
-            </div>
-        <!--Weather App-->
-            <div class="row-WA bg-dark">
-                <div class="card-WA bg-success" style="width: 12rem;">
-                    <img src="./images/WeatherApp.jpg" class="card-img-top" alt="Weather App">
-                    <div class="card-body">
-                    <h5 class="card-title bg-success text-white text-center">Weather App</h5>
-                    <p class="card-text bg-success text-white text-center">HTML/CSS/JS/API</p>
-                    <a href="https://ngoody315.github.io/WeatherApp/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
-                </div>
-            </div>
-        <!--NOVID-->
-            <div class="row-NO bg-dark">
-                <div class="card-NO bg-success" style="width: 12rem;">
-                    <img src="./images/Novid.jpg" class="card-img-top" alt="NOVID">
-                    <div class="card-body">
-                    <h5 class="card-title bg-success text-white text-center">NOVID</h5>
-                    <p class="card-text bg-success text-white text-center">HTML/CSS/JS/API</p>
-                    <a href="https://prestongeyer713.github.io/novid/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
-                </div>
-            </div>
-       </div>
-       <!--Contact Me-->
 
-       <div class="container-CM">
-        <div class="row-contact-title h1 bg-secondary text-white" id="contact-me">Contact Me</div>
-            <div class="row-contact">
-                 <div class="col-12 align-text-center" id="contact">
-                    <ul id="contact">
-                        <li>
-                            <strong>Email:</strong>
-                            <a href="mailto:nikki.goodridge@gmail.com">nikki.goodridge@gmail.com</a>
-                        </li>
-                        <li>
-                            <strong>GitHub:</strong>
-                            <a href="https://github.com/NGoody315?tab=repositories">NGoody315</a>
-                        </li>
-                        <li>
-                            <strong>LinkedIn:</strong>
-                            <a href="www.linkedin.com/in/jeanne-goodridge">Jeanne Goodridge</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+          <div class="title-bar hide-for-large">
+            <div class="title-bar-left">
+              <button class="menu-icon" type="button" data-open="my-info"></button>
+              <span class="title-bar-title">Nikki Goodridge</span>
             </div>
-         </div>
+          </div>
+          <div class="callout primary">
+            <div class="row column">
+              <h1>My Projects</h1>
+              <p class="lead"></p> <!--Fill in sentence later-->
+            </div>
+          </div>
+          <div class="row small-up-2 medium-up-3 large-up-4">
+            <div class="column">
+              <img class="thumbnail" src="./images/runbuddy.jpg">
+              <h5>Run Buddy</h5><h6>HTML/CSS</h6>
+              <a href="https://ngoody315.github.io/run-buddy/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="./images/PasswordGenerator.jpg">
+              <h5>Password Generator</h5><h6>HTML/CSS/JS</h6>
+              <a href="https://ngoody315.github.io/PasswordGenerator/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="./images/CodingQuiz.jpg">
+              <h5>Coding Quiz</h5><h6>HTML/CSS/JS</h6>
+              <a href="https://ngoody315.github.io/CodingQuiz/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="./images/WeatherApp.jpg">
+              <h5>Weather App</h5><h6>HTML/CSS/JS/API</h6>
+              <a href="https://ngoody315.github.io/WeatherApp/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="./images/Novid.jpg">
+              <h5>NOVID</h5><h6>HTML/CSS/JS/API</h6>
+              <a href="https://prestongeyer713.github.io/novid/" class="btn btn-RB bg-dark text-white border border-dark" target="_blank">Go To Site</a>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="medium-6 columns">
+              <h3>Contact Me</h3>
+              <p>Here's my info!</p>
+              <ul class="menu">
+                <li><a href="https://github.com/NGoody315">GitHub</a></li>
+                <li><a href="www.linkedin.com/in/jeanne-goodridge">LinkedIn</a></li>
+                <li><a href="mailto: nikki.goodridge@gmail.com">Email Me</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </body>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
+
+
+
